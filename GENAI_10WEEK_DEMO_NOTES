@@ -1,0 +1,10 @@
+Tool/Environment	Your Prompt	Primary Purpose	Key Commands
+Terminal (Shell)	((.venv) ) raghavaraju@... %	System Management: Installing packages, activating environments, starting/stopping the Jupyter server, and accessing configuration files.	pip install X, source .venv/bin/activate, Control + C (to stop server).
+Jupyter Notebook	(In Browser/App)	Code Execution: Writing, running, and visualizing your Python code (LangChain, PyTorch, etc.).	import X, llm.invoke(), running code cells.
+			
+			
+			
+Component	Function	Developer Insight	
+Tokenization	Breaks text into numerical IDs. Ensures all words are recognized (solves OOV problem).	Essential for managing context window size and API cost.	
+Embeddings	Converts text into semantic vectors (numerical lists) for search.	Foundation of Semantic Search and RAG retrieval accuracy.	
+Attention	The "A" in Transformer. Allows parallel processing and dynamic weighting of tokens for contextual accuracy.	Critical for ensuring the LLM correctly uses the retrieved context in RAG.	
